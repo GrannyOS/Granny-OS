@@ -1,13 +1,13 @@
 ## GrannyOS
-GrannyOS ist ein Open-Source Konzept für sichere und einfache Tablets zB. für Senioren, Kinder, Menschen mit motorischen oder kognitiven Einschränkungen.
+GrannyOS ist ein Open-Source Konzept für sichere und einfache Tablets oder Smartphones zB. für Senioren, Kinder, Menschen mit motorischen oder kognitiven Einschränkungen, aber auch für jeden Einzelnen der Wert auf Datenschutz und Privatsphäre legt.
 
-Viele Senioren nutzen heute Smartphones oder Tablets, fühlen sich aber unsicher im Umgang mit digitalen Diensten.
+Viele Menschen nutzen heute Smartphones oder Tablets, fühlen sich aber unsicher im Umgang mit digitalen Diensten.
 Gleichzeitig nehmen Cyberkriminalität und Kontrollsysteme großer Unternehmen im Internet immer weiter zu.
 
 GrannyOS soll zeigen, dass es auch anders geht:
 Ein Gerät, das bewusst einfach gestaltet ist, datenschutzfreundlich arbeitet und im besten Fall die Privatsphäre respektiert.
 
-Das Projekt beschreibt, wie handelsübliche Tablets so eingerichtet werden können, dass sie sicherer, übersichtlicher und leichter verständlich sind.
+Das Projekt beschreibt, wie handelsübliche Tablets und Smartphones so eingerichtet werden können, dass sie sicherer, übersichtlicher und leichter verständlich sind.
 
 ## Idee
 Die Grundidee ist einfach:
@@ -30,8 +30,8 @@ Die Grundidee ist einfach:
   Ein gehärteter Browser sowie eine Firewall schützen vor riskanten Webseiten.
 
 ## Technische Grundlage
-Auch wenn es so klingt ist GrannyOS kein eigenes Betriebssystem.
-Stattdessen basiert das Konzept auf bestehenden Android-Systemen, die für Sicherheit und Datenschutz bekannt sind.
+Auch wenn es so klingt ist GrannyOS (noch) kein eigenes Betriebssystem.
+Stattdessen basiert das Konzept auf bestehenden Android-Systemen, die für Sicherheit oder Datenschutz bekannt sind.
 
 ## Benutzeroberfläche
 Ein angepasster Launcher sorgt dafür, dass der Nutzer nur ausgewählte Anwendungen sieht.
@@ -44,49 +44,122 @@ Die Oberfläche verwendet:
 
 So bleibt das Gerät übersichtlich und leichter verständlich.
 
-## Software
+## Basis
+Das Tablet oder Smartphone wird mit einem dieser Systeme aufgesetzt:
 
-### Basis
-- GrapheneOS, e/OS oder LineageOS
+- GrapheneOS
+- e/OS
+- LineageOS
 
-### Launcher
-- Lawnchair
+## App's
+Die App's können heute schon genutzt werden:
+Installiere Obtainium.
+Lade hier die Granny-Apps.json herunter.
+Importiere die json in Obtainium.
 
-### Isolation
-- Shelter
+Langfristig könnte Obtainium geforkt werden und bereits die Json enthalten, damit der Nutzer nur noch den "Granny-Store" installieren muss.
+
+Folgende App's sind kategorisch sortiert enthalten:
 
 ### App-Store
-- Obtainium, F-Droid oder Aurora
+- F-Droid
+- Aurora Store
+- Obtainium
 
-### Messenger
-- Signal, SimpleX, Element X, Beeper
+### Barrierefreiheit
+- TalkBack
 
-### E-Mail
+### Familie
+- RustDesk
+- Haven
+
+### Finanzen
+- Cake Wallet
+- Cupcake
+
+### Internet
+- Brave
+- IronFox
+- I2P
+
+### Karten
+- Organic Maps
+- BTC Map
+
+### Kommunikatiom
+- Signal
+- SimpleX
+- Element X
 - Tuta
+- FairEmail
+- Briar Mailbox
+- Briar
+- Meshtastic
+- Jitsi Meet
 
-### Video-Telefonie
-- Jitsi
+### Organisation
+- KOReader
+- Standard Notes
 
-### Browser
-- Bromite
+### Privatsphäre
+- Orbot
+- Mullvad VPN
+- Shadowsocks
 
-### Sicherheit & Privatsphäre
-- NetGuard, RethinkDNS, Aegis, TrackerControl, Mullvad, Orbot
+### Selfhosting
+- Nextcloud
+- Jellyfin
 
-### Medien
-- NewPipe, AntennaPod
+### Sicherheit
+- Shelter
+- Island
+- KeePassDX
+- OpenKeychain
+- Aegis
+- Cryptomator
+- Scrambled Exif
+- Hypatia
+- NetGuard
+- Blokada 5
+- RethinkDNS
+- TrackerControl
+- Clipeus
+- Sentry
+- Stille
+- Duress
+- Wasted
 
-### Offline
-- KeePassDX, Standard Notes, Tasks, Etar Kalender, Organic Maps, KOReader, Cryptomator
+### Spiele
+- SuperTuxKart
+- Shattered Pixel Dungeon
+- Puzzles
+- Luanti
 
-Die exakte Liste muss noch ausgebaut, durchdacht und angepasst werden.
+### System
+- Magisk
+- Lawnchair
+- Material Files
+- Google Play Store
+- Google Play Dienste
+
+### Unterhaltung
+- Feeder
+- NewPipe
+- AntennaPod
+- VLC
+
+Explizite Erklärungen zu den App's werden im Blog zu lesen sein.
+
+[GrannyOS Blog](https://grannyos.substack.com/profile/posts)
 
 ## Ziel des Projekts
 GrannyOS soll vor allem eines sein:
 
-Eine praktische Anleitung und Sammlung von Ideen, wie sichere und einfache Geräte für ältere Menschen umgesetzt werden können.
+Eine praktische Anleitung und Sammlung von Ideen, wie sichere und einfache Geräte für Menschen speziell umgerüstet werden können.
 
 Aber auch ein nutzbares Produkt in der echten Welt, das jeder selbst erstellen kann.
+
+Ganz am Ende steht ein fertiges Custom ROM namens GrannyOS.
 
 ## Mitmachen
 GrannyOS ist ein offenes Community-Projekt.
